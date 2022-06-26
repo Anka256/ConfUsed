@@ -1,0 +1,9 @@
+grv = 0.5;
+vsp = 0;
+hsp = 0;
+jumpspeed = 12
+w_speed = 6;
+onLadder = false;
+dashspeed = 120;
+dashduration = 0;
+global.exit2 = false;
