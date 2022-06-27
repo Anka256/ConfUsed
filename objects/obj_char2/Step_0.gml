@@ -33,7 +33,7 @@ if (place_meeting(x + hsp, y, obj_char1))
 	{
 		x += sign(hsp);
 	}
-	if !place_meeting(obj_char1.x + hsp, y, obj_platform) obj_char1.x += hsp;
+	if !place_meeting(obj_char1.x + hsp, y, obj_platform) && !space obj_char1.x += hsp;
 	else hsp = 0;
 }
 x += hsp;
