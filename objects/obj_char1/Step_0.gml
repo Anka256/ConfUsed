@@ -33,13 +33,12 @@ if (place_meeting(x + hsp, y, obj_char2))
 	{
 		x += sign(hsp);
 	}
-	if !place_meeting(obj_char2.x + hsp, y, obj_platform) obj_char2.x += hsp;
+	if !place_meeting(obj_char2.x + hsp, y, obj_platform) && global.stable2 obj_char2.x += hsp; // 2. kutunun önünde duvar yoksa ve yerdeyse pushla
 	else hsp = 0;
 }
-
 x += hsp;
 		#endregion
-scr_objmove();
+scr_objmove1();
 
 	
 	#region stage completing

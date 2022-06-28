@@ -5,4 +5,5 @@ jumpspeed = 12
 w_speed = 6;
 onLadder = false;
 dashspeed = sprite_width*2;
+global.stable2 = false;
 global.exit2 = false;
