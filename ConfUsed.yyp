@@ -54,7 +54,7 @@
     {"id":{"name":"Game5","path":"rooms/Game5/Game5.yy",},"order":6,},
     {"id":{"name":"spr_exit1","path":"sprites/spr_exit1/spr_exit1.yy",},"order":5,},
     {"id":{"name":"Path","path":"paths/Path/Path.yy",},"order":0,},
-    {"id":{"name":"Script6","path":"scripts/Script6/Script6.yy",},"order":5,},
+    {"id":{"name":"scr_trampoline","path":"scripts/scr_trampoline/scr_trampoline.yy",},"order":5,},
     {"id":{"name":"Game4","path":"rooms/Game4/Game4.yy",},"order":5,},
     {"id":{"name":"spr_start","path":"sprites/spr_start/spr_start.yy",},"order":7,},
     {"id":{"name":"snd_sawkill","path":"sounds/snd_sawkill/snd_sawkill.yy",},"order":4,},
