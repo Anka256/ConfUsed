@@ -52,9 +52,3 @@ if (place_meeting(x, y, obj_exit1)) && (global.key > 0)
 
 	#endregion
 scr_trampoline();
-//	#region trampoline
-//if instance_exists(obj_platform)
-//{
-//	if place_meeting(x, obj_trampoline.bbox_top, obj_trampoline) y += 40;
-//}
-//	#endregion
