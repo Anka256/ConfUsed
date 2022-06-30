@@ -13,6 +13,8 @@ if (place_meeting(x + hsp, y, obj_platform))
 	hsp = 0;
 }
 	//yatay hareket obj1
+if place_meeting(x, bbox_top - 1, obj_char1) && !space obj_char1.x += hsp; // kutular üst üsteyken birlikte hareket ediyor, trambolinde birlikte duruyorlar
+
 if (place_meeting(x + hsp, y, obj_char1))
 {
 	while(!place_meeting(x + sign(hsp), y, obj_char1))
