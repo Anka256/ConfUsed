@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "portal1",
-    "path": "sprites/portal1/portal1.yy",
+    "name": "spr_portal1",
+    "path": "sprites/spr_portal1/spr_portal1.yy",
   },
   "solid": false,
   "visible": true,

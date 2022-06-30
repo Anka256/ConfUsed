@@ -1,14 +1,17 @@
 {
   "spriteId": {
-    "name": "spr_portal2",
-    "path": "sprites/spr_portal2/spr_portal2.yy",
+    "name": "spr_door",
+    "path": "sprites/spr_door/spr_door.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_platform",
+    "path": "objects/obj_platform/obj_platform.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -29,7 +32,7 @@
     "path": "folders/Objects/In game objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_portal2",
+  "name": "obj_door",
   "tags": [],
   "resourceType": "GMObject",
 }

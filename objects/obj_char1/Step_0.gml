@@ -13,7 +13,7 @@ if (place_meeting(x + hsp, y, obj_platform))
 	hsp = 0;
 }
 	//yatay hareket obj2
-if place_meeting(x, bbox_top - 1, obj_char2) obj_char2.x += hsp; // kutular üst üsteyken birlikte hareket ediyor, trambolinde birlikte duruyorlar
+if place_meeting(x, bbox_top - 1, obj_char2) && !place_meeting(obj_char1.x + hsp, y, obj_platform) obj_char2.x += hsp; // kutular üst üsteyken birlikte hareket ediyor, trambolinde birlikte duruyorlar
 
 if (place_meeting(x + hsp, y, obj_char2))
 {
@@ -58,4 +58,11 @@ if instance_exists(obj_portal1){
 	}
 }
 	#endregion
-	
+
+
+
+
+
+
+
+

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_portal2",
-    "path": "sprites/spr_portal2/spr_portal2.yy",
+    "name": "spr_button",
+    "path": "sprites/spr_button/spr_button.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,7 +21,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -29,7 +31,7 @@
     "path": "folders/Objects/In game objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_portal2",
+  "name": "obj_button",
   "tags": [],
   "resourceType": "GMObject",
 }
