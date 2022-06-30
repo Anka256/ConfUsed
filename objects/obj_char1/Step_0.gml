@@ -1,21 +1,7 @@
 scr_variable1();
 scr_space1();
-		#region ladder
-	//merdiven
-if (m_up || m_down)
-{
-	if place_meeting(x, y, obj_ladder) onLadder = true;
-}
-if (onLadder) 
-{
-	vsp = 0;
-	if (m_up) vsp = -5;
-	if (m_down) vsp = +5;
-	if !place_meeting(x, y, obj_ladder) onLadder = false;
-	if (space) onLadder = false;
-}
-		#endregion
-		#region horizontal movement
+scr_ladder();
+	#region horizontal movement
 		
 	//yatay hareket platform
 if (place_meeting(x + hsp, y, obj_platform))
@@ -39,8 +25,6 @@ if (place_meeting(x + hsp, y, obj_char2))
 x += hsp;
 		#endregion
 scr_objmove1();
-
-	
 	#region stage completing
 
 if (place_meeting(x, y, obj_exit1)) && (global.key > 0)
@@ -52,3 +36,24 @@ if (place_meeting(x, y, obj_exit1)) && (global.key > 0)
 
 	#endregion
 scr_trampoline();
+	#region portal
+if instance_exists(obj_portal1){
+	if place_meeting(x,y,obj_portal1) && portal_active && !collision_rectangle(obj_portal2.x - sprite_width/2, obj_portal2.y - sprite_width, obj_portal2.x + sprite_width/2, obj_portal2.y, obj_char2, false, false)
+	{
+		alarm_set(0,45);
+		portal_active = false;
+		vsp = 0;
+		obj_char1.x = obj_portal2.x;
+		obj_char1.y = obj_portal2.y-sprite_width/2;
+	}
+	if place_meeting(x,y,obj_portal2) && portal_active && !collision_rectangle(obj_portal1.x - sprite_width/2, obj_portal1.y - sprite_width, obj_portal1.x + sprite_width/2, obj_portal1.y, obj_char2, false, false)
+	{
+		alarm_set(0,45);
+		vsp = 0;
+		portal_active = false;
+		obj_char1.x = obj_portal1.x;
+		obj_char1.y = obj_portal1.y-sprite_width/2;
+	}
+}
+	#endregion
+	
