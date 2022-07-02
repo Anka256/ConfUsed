@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "1_scripts",
-    "path": "folders/Scripts/1_scripts.yy",
+    "path": "folders/Scripts/char scripts/1_scripts.yy",
   },
   "resourceVersion": "1.0",
   "name": "scr_variable1",

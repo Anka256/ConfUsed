@@ -64,5 +64,3 @@ if instance_exists(obj_portal1){
 
 
 
-
-
