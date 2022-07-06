@@ -1,20 +1,26 @@
 function scr_button(){
+	var whichdoor = instance_nearest(x, y, obj_door);
 if place_meeting(x, y, obj_char1) || place_meeting(x, y, obj_char2)
-{
-	if obj_door.image_yscale > 0.02
+{	
+	image_yscale = 0.3
+	if whichdoor.image_yscale > 0.02
 	{
-		obj_door.image_yscale -= 0.01;
+		whichdoor.image_yscale -= 0.01;
 	}
 }
-else if obj_door.image_yscale < 1 
+else 
 {
-	with(obj_door)
+	image_yscale = 1;
+	if whichdoor.image_yscale < 1 
 	{
-		if !place_meeting(x, y + 5, obj_char1) && !place_meeting(x, y + 5, obj_char2)
+		with(whichdoor)
 		{
-			image_yscale += 0.02;
-		}	
-		else image_yscale += 0
+			if !place_meeting(x, y + 5, obj_char1) && !place_meeting(x, y + 5, obj_char2)
+			{
+				image_yscale += 0.015;
+			}	
+			else image_yscale += 0
+		}
 	}
 }
 }

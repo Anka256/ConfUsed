@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_saw",
+    "path": "sprites/spr_saw/spr_saw.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -19,16 +22,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_char1","path":"objects/obj_char1/obj_char1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_char2","path":"objects/obj_char2/obj_char2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "In game objects",
+    "path": "folders/Objects/In game objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_controlscaller",
+  "name": "obj_saw",
   "tags": [],
   "resourceType": "GMObject",
 }

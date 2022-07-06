@@ -32,7 +32,7 @@ scr_objmove2();
 if (place_meeting(x, y, obj_exit2)) && (global.key > 0)
 {
 	global.key -= 1;
-	global.exit2 = true;
+	global._exit -= 1;
 	instance_destroy();
 }
 

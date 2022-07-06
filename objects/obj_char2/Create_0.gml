@@ -5,6 +5,6 @@ jumpspeed = 12
 w_speed = 6;
 onLadder = false;
 dashspeed = 128;
+dashcd = 30;
 portal_active = true;
 global.stable2 = false;
-global.exit2 = false;

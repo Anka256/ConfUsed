@@ -68,8 +68,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "1-9",
+    "path": "folders/Rooms/Levels/1-9.yy",
   },
   "resourceVersion": "1.0",
   "name": "Game2",

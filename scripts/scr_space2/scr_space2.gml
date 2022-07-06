@@ -1,9 +1,11 @@
 function scr_space2(){
 	
 if (hsp != 0) image_xscale = sign(hsp);
+if dashcd > 0 dashcd -= 1;
 
-if (space)
+if (space) && (dashcd = 0)
 {	
+	dashcd = 30;
 	if !collision_line(x, y, x + image_xscale * dashspeed, y, obj_platform, false, false) hsp = image_xscale * (dashspeed);  //duvarla alakası yoksa dash at
 	else // duvardan geçme durumu varsaa
 	{

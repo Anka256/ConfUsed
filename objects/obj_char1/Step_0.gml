@@ -32,9 +32,10 @@ scr_objmove1();
 if (place_meeting(x, y, obj_exit1)) && (global.key > 0)
 {
 	global.key -= 1;
-	global.exit1 = true;
+	global._exit -= 1;
 	instance_destroy();
 }
+
 
 	#endregion
 scr_trampoline();
