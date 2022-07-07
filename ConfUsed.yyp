@@ -15,6 +15,7 @@
     {"id":{"name":"spr_portal2","path":"sprites/spr_portal2/spr_portal2.yy",},"order":18,},
     {"id":{"name":"obj_saw","path":"objects/obj_saw/obj_saw.yy",},"order":4,},
     {"id":{"name":"scr_variable2","path":"scripts/scr_variable2/scr_variable2.yy",},"order":0,},
+    {"id":{"name":"obj_exit","path":"objects/obj_exit/obj_exit.yy",},"order":18,},
     {"id":{"name":"seq_gamename","path":"sequences/seq_gamename/seq_gamename.yy",},"order":1,},
     {"id":{"name":"spr_saw","path":"sprites/spr_saw/spr_saw.yy",},"order":3,},
     {"id":{"name":"Game10","path":"rooms/Game10/Game10.yy",},"order":8,},
