@@ -1,0 +1,1 @@
+path_start(Pathdeneme2, 2.7, path_action_reverse, 0);
