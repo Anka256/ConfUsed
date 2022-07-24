@@ -1,0 +1,1 @@
+	whichdoor = instance_nearest(x, y, obj_door);
