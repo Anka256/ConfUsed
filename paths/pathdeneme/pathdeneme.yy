@@ -1,8 +1,7 @@
 {
-  "name": "Pathdeneme",
   "kind": 0,
-  "precision": 4,
   "closed": false,
+  "precision": 4,
   "points": [
     {"speed":100.0,"x":0.0,"y":0.0,},
     {"speed":100.0,"x":130.0,"y":0.0,},
@@ -12,6 +11,7 @@
     "path": "folders/Paths.yy",
   },
   "resourceVersion": "1.0",
+  "name": "Pathdeneme",
   "tags": [],
   "resourceType": "GMPath",
 }
