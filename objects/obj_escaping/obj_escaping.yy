@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ConfUsed",
-    "path": "ConfUsed.yyp",
+    "name": "Game Objects",
+    "path": "folders/Game Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_escaping",
