@@ -39,7 +39,6 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_1E94D7A1_1_1_2_3","path":"rooms/Game20/Game20.yy",},
     {"name":"inst_56884D82_1_1_2_3","path":"rooms/Game20/Game20.yy",},
     {"name":"inst_78EFFF9A_1_1_2_3","path":"rooms/Game20/Game20.yy",},
     {"name":"inst_1AD844C7_1_1_2_3","path":"rooms/Game20/Game20.yy",},
@@ -49,6 +48,7 @@
     {"name":"inst_567CCE34_1","path":"rooms/Game20/Game20.yy",},
     {"name":"inst_793FDE1F_1","path":"rooms/Game20/Game20.yy",},
     {"name":"inst_5C8B1597_1","path":"rooms/Game20/Game20.yy",},
+    {"name":"inst_1E94D7A1_1_1_2_3","path":"rooms/Game20/Game20.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
