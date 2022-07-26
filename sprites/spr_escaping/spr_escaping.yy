@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Game Objects",
-    "path": "folders/Game Objects.yy",
+    "name": "ConfUsed",
+    "path": "ConfUsed.yyp",
   },
   "resourceVersion": "1.0",
   "name": "spr_escaping",

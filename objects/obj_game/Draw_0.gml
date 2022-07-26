@@ -1,6 +1,0 @@
-draw_set_halign(fa_center);
-
-if(paused){
-    draw_sprite_ext(screenShot,0,0,0,1,1,0,c_white,1);
-    draw_text(room_width * 0.5, room_height * 0.5, "Paused");
-}
