@@ -1,4 +1,4 @@
-esc_counter = 100; //oyunu kapatmak için esc basılı tutma süresi
+
 if instance_exists(obj_char1) || instance_exists(obj_char2)
 {
 	global._exit = 1;
