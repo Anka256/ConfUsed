@@ -44,9 +44,9 @@ switch (room) {
     case Game12:
 		global.level = 12;
 	break;
-	//case Game13:
-	//	global.level = 13;
-	//break;
+	case Game13:
+		global.level = 13;
+	break;
 	//case Game14:
 	//	global.level = 14;
 	//break;

@@ -1,0 +1,1 @@
+sallalahu_aleyhi_ve_sellem = true;
