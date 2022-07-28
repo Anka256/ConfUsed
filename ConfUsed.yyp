@@ -52,7 +52,6 @@
     {"id":{"name":"spr_restart","path":"sprites/spr_restart/spr_restart.yy",},"order":11,},
     {"id":{"name":"spr_exit2","path":"sprites/spr_exit2/spr_exit2.yy",},"order":5,},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},"order":20,},
-    {"id":{"name":"Game9","path":"rooms/Game9/Game9.yy",},"order":8,},
     {"id":{"name":"Game19","path":"rooms/Game19/Game19.yy",},"order":6,},
     {"id":{"name":"spr_char2","path":"sprites/spr_char2/spr_char2.yy",},"order":12,},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"order":12,},
@@ -118,7 +117,7 @@
         {"roomId":{"name":"Game6","path":"rooms/Game6/Game6.yy",},},
         {"roomId":{"name":"Game7","path":"rooms/Game7/Game7.yy",},},
         {"roomId":{"name":"Game8","path":"rooms/Game8/Game8.yy",},},
-        {"roomId":{"name":"Game9","path":"rooms/Game9/Game9.yy",},},
+        {"roomId":{"name":"","path":"",},},
       ],},
     {"groupName":"10-19","children":[
         {"roomId":{"name":"Game10","path":"rooms/Game10/Game10.yy",},},
