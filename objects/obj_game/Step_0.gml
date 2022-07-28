@@ -38,3 +38,28 @@ else
 //if esc_counter <= 0 game_end();
 
 //	#endregion
+if global._exit = 0
+{
+	global.trans_meter += 1;
+	if global.trans_meter == 4*2 instance_create_layer(0,180*0, "Instances_1", obj_transition);
+	if global.trans_meter == 4*4 instance_create_layer(0,180*1, "Instances_1", obj_transition);
+	if global.trans_meter == 4*6 instance_create_layer(0,180*2, "Instances_1", obj_transition);
+	if global.trans_meter == 4*8 instance_create_layer(0,180*3, "Instances_1", obj_transition);
+	if global.trans_meter == 4*10 instance_create_layer(0,180*4, "Instances_1", obj_transition);
+	if global.trans_meter == 4*12 instance_create_layer(0,180*5, "Instances_1", obj_transition);
+}
+if global.trans_meter > 120
+{
+	room_goto_next();
+		global.trans_meter = 0;
+		instance_destroy(obj_transition);
+}
+//{
+//	trans_counter = -1;
+//	trans_find = instance_find(obj_transition, 15);
+//	trans_find.image_speed = -1;
+//	if obj_transition.image_index == 1 instance_destroy(obj_transition);
+//	if !instance_exists(obj_transition) room_goto_next();
+//}
+
+//adresle yok etme yöntemi dencem

@@ -1,0 +1,1 @@
+if image_index == 18 image_speed = 0;
