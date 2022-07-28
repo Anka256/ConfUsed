@@ -16,10 +16,10 @@ switch (room)
 	case Game8:
 		draw_text(960, 540, "Push the Button, Door Will Open!");
 	break;
-	case Game10:
+	case Game11:
 		draw_text(960, 540, "Press 'W' or 'S' to Move the 2nd Box!");
 	break;
-	case Game11:
+	case Game12:
 		draw_text(960, 540, "Press 'Space' to Dash!");
 	break;
 	case Game14:

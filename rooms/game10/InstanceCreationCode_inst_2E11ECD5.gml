@@ -1,4 +1,4 @@
-path_clear_points(Pathdeneme8);
-path_add_point(Pathdeneme8, x, y, 210);
-path_add_point(Pathdeneme8, x-200, y, 210);
-path_start(Pathdeneme8, 2.7, path_action_reverse, 0)
+path_clear_points(Pathdeneme);
+path_add_point(Pathdeneme, x, y, 100);
+path_add_point(Pathdeneme, x+1118, y, 100);
+path_start(Pathdeneme, 21, path_action_reverse, 0)
