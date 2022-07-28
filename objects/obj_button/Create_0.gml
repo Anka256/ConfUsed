@@ -1,2 +1,1 @@
-whichdoor = instance_nearest(x, y, obj_door);
-slower_door_y = false;
+	whichdoor = instance_nearest(x, y, obj_door);
