@@ -22,13 +22,13 @@ switch (room)
 	case Game12:
 		draw_text(960, 540, "Press 'Space' to Dash!");
 	break;
-	case Game14:
-		draw_text(960, 240, "Now It's Time to Get a Little");
-		draw_text_ext_transformed(960, 290, "ConfUsed", 2, 50000, 3, 3, image_angle);
-	break;
-	case Game18:
-		draw_text(960, 390, "Ignore the Borders With Portal!");
-	break;
-	default:
-	break;
+	//case Game14:
+	//	draw_text(960, 240, "Now It's Time to Get a Little");
+	//	draw_text_ext_transformed(960, 290, "ConfUsed", 2, 50000, 3, 3, image_angle);
+	//break;
+	//case Game18:
+	//	draw_text(960, 390, "Ignore the Borders With Portal!");
+	//break;
+	//default:
+	//break;
 }
