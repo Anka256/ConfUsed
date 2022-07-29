@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ConfUsed",
-    "path": "ConfUsed.yyp",
+    "name": "Menu objects",
+    "path": "folders/Objects/Menu objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_mutebutton",
