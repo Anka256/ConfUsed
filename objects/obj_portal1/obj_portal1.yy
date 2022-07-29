@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "In game objects",
-    "path": "folders/Objects/In game objects.yy",
+    "path": "folders/Kadınlar/In game objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_portal1",

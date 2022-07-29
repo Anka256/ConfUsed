@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Menu objects",
-    "path": "folders/Objects/Menu objects.yy",
+    "path": "folders/Kadınlar/Menu objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_creator",
