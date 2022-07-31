@@ -1,12 +1,39 @@
 function scr_button(){
 
+	if double_slower_door{
+	if (place_meeting(x, y, obj_char1) || place_meeting(x, y, obj_char2))
+	{	
+		image_yscale = 0.3
+		if whichdoor.image_yscale > 0.02
+		{
+			whichdoor.image_yscale -= 0.007;
+		}
+	}
+	else 
+	{
+		image_yscale = 1;
+		if whichdoor.image_yscale < 1 
+		{
+			with(whichdoor)
+			{
+				if !place_meeting(x, y + 5, obj_char1) && !place_meeting(x, y + 5, obj_char2)
+				{
+					image_yscale += 0.0024;
+				}	
+				else image_yscale += 0
+			}
+		}
+	}
+	}
+	else{
+	
 	if slower_door{
 	if (place_meeting(x, y, obj_char1) || place_meeting(x, y, obj_char2))
 	{	
 		image_yscale = 0.3
 		if whichdoor.image_yscale > 0.02
 		{
-			whichdoor.image_yscale -= 0.005;
+			whichdoor.image_yscale -= 0.007;
 		}
 	}
 	else 
@@ -51,6 +78,7 @@ function scr_button(){
 				else image_yscale += 0
 			}
 		}
+	}
 	}
 	}
 }
