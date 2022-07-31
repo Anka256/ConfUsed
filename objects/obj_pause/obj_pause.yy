@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ConfUsed",
-    "path": "ConfUsed.yyp",
+    "name": "z.Others",
+    "path": "folders/z.Others.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_pause",
