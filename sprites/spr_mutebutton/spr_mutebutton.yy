@@ -27,9 +27,9 @@
     {"compositeImage":{"FrameId":{"name":"ead45f29-9403-4cfd-8a60-9d4a91ba5ae4","path":"sprites/spr_mutebutton/spr_mutebutton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"ead45f29-9403-4cfd-8a60-9d4a91ba5ae4","path":"sprites/spr_mutebutton/spr_mutebutton.yy",},"LayerId":{"name":"7602e040-f177-4bb9-acb7-0afda684fa67","path":"sprites/spr_mutebutton/spr_mutebutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_mutebutton","path":"sprites/spr_mutebutton/spr_mutebutton.yy",},"resourceVersion":"1.0","name":"ead45f29-9403-4cfd-8a60-9d4a91ba5ae4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9cc5b3c6-a0df-42ea-932c-e7d895f1172a","path":"sprites/spr_mutebutton/spr_mutebutton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9cc5b3c6-a0df-42ea-932c-e7d895f1172a","path":"sprites/spr_mutebutton/spr_mutebutton.yy",},"LayerId":{"name":"7602e040-f177-4bb9-acb7-0afda684fa67","path":"sprites/spr_mutebutton/spr_mutebutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mutebutton","path":"sprites/spr_mutebutton/spr_mutebutton.yy",},"resourceVersion":"1.0","name":"9cc5b3c6-a0df-42ea-932c-e7d895f1172a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ab7abfc0-879c-4c75-a8c8-56082bc7b6ef","path":"sprites/spr_mutebutton/spr_mutebutton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ab7abfc0-879c-4c75-a8c8-56082bc7b6ef","path":"sprites/spr_mutebutton/spr_mutebutton.yy",},"LayerId":{"name":"7602e040-f177-4bb9-acb7-0afda684fa67","path":"sprites/spr_mutebutton/spr_mutebutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_mutebutton","path":"sprites/spr_mutebutton/spr_mutebutton.yy",},"resourceVersion":"1.0","name":"ab7abfc0-879c-4c75-a8c8-56082bc7b6ef","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_mutebutton","path":"sprites/spr_mutebutton/spr_mutebutton.yy",},
@@ -45,7 +45,7 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7984e763-2d91-4dec-8b58-892177d1a7d5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ead45f29-9403-4cfd-8a60-9d4a91ba5ae4","path":"sprites/spr_mutebutton/spr_mutebutton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"ca29b33c-898d-430d-b261-dac145b936d7","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9cc5b3c6-a0df-42ea-932c-e7d895f1172a","path":"sprites/spr_mutebutton/spr_mutebutton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"7ad44648-d6c7-4880-9eec-471ecc77daa0","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ab7abfc0-879c-4c75-a8c8-56082bc7b6ef","path":"sprites/spr_mutebutton/spr_mutebutton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
