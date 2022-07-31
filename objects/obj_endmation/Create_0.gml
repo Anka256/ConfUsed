@@ -8,5 +8,5 @@ image_alpha = 1;
 
 confused_motion = 0;
 confused_motion += 1;
-if y = 640 alarm[0] = 30;
-if y = 0 alarm[1] = 210;
+if y == 640 alarm[0] = 30;
+if y == 0 alarm[1] = 210;
