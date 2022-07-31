@@ -18,6 +18,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_char1","path":"objects/obj_char1/obj_char1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":132.0,"y":288.0,"resourceVersion":"1.0","name":"inst_1E8284B1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":736.0,"y":768.0,"resourceVersion":"1.0","name":"inst_15582646","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1797.0,"y":962.0,"resourceVersion":"1.0","name":"inst_31DBFD5C","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1139.0,"y":793.0,"resourceVersion":"1.0","name":"inst_23DAB16","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_keystore","path":"sprites/spr_keystore/spr_keystore.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1097.0,"y":77.0,"resourceVersion":"1.0","name":"graphic_546796C4_1_1_2_2_2_1_1","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -87,6 +88,7 @@
     {"name":"inst_A0E4A70","path":"rooms/Game18/Game18.yy",},
     {"name":"inst_6098B5B9","path":"rooms/Game18/Game18.yy",},
     {"name":"inst_31DBFD5C","path":"rooms/Game18/Game18.yy",},
+    {"name":"inst_23DAB16","path":"rooms/Game18/Game18.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
