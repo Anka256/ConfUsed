@@ -1,4 +1,4 @@
-
+introduction_counter = 300;
 if instance_exists(obj_char1) || instance_exists(obj_char2)
 {
 	global._exit = 1;
