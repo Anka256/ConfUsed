@@ -77,11 +77,5 @@ switch (room) {
 	case Game23:
 		global.level = 23;
 	break;
-	case Game24:
-		global.level = 24;
-	break;
-	case Game25:
-		global.level = 25;
-	break;
 }
 	#endregion

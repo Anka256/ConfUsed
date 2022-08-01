@@ -13,9 +13,7 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_char1","path":"objects/obj_char1/obj_char1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":144.0,"y":320.0,"resourceVersion":"1.0","name":"inst_4F871584","tags":[],"resourceType":"GMRInstance",},
-      ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_keystore","path":"sprites/spr_keystore/spr_keystore.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":96.0,"resourceVersion":"1.0","name":"graphic_546796C4_1_1_2_1","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"spr_leveldraw","path":"sprites/spr_leveldraw/spr_leveldraw.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":96.0,"resourceVersion":"1.0","name":"graphic_60AD21C2_1_2_1","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -72,8 +70,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_saw","path":"objects/obj_saw/obj_saw.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1764.0,"y":576.0,"resourceVersion":"1.0","name":"inst_17CD234D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1328.5,"y":609.0,"resourceVersion":"1.0","name":"inst_69CDEF0","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1090.0,"y":770.0,"resourceVersion":"1.0","name":"inst_4F1ECEB2","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":738.0,"resourceVersion":"1.0","name":"inst_4DA33E6F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":578.0,"resourceVersion":"1.0","name":"inst_639BF0A8","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_char1","path":"objects/obj_char1/obj_char1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":144.0,"y":304.0,"resourceVersion":"1.0","name":"inst_4F871584","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":96,"gridY":96,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":"_filter_tintfilter","properties":[
         {"type":1,"name":"g_TintCol","value":"#FFFFFFFF",},
       ],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -94,7 +92,6 @@
     {"name":"inst_56BBC75E","path":"rooms/Game10/Game10.yy",},
     {"name":"inst_2401AF02","path":"rooms/Game10/Game10.yy",},
     {"name":"inst_16DE63CC","path":"rooms/Game10/Game10.yy",},
-    {"name":"inst_4F871584","path":"rooms/Game10/Game10.yy",},
     {"name":"inst_23133CEB","path":"rooms/Game10/Game10.yy",},
     {"name":"inst_2E11ECD5","path":"rooms/Game10/Game10.yy",},
     {"name":"inst_6D7A9CA5","path":"rooms/Game10/Game10.yy",},
@@ -135,8 +132,8 @@
     {"name":"inst_17CD234D","path":"rooms/Game10/Game10.yy",},
     {"name":"inst_69CDEF0","path":"rooms/Game10/Game10.yy",},
     {"name":"inst_4F1ECEB2","path":"rooms/Game10/Game10.yy",},
-    {"name":"inst_4DA33E6F","path":"rooms/Game10/Game10.yy",},
     {"name":"inst_639BF0A8","path":"rooms/Game10/Game10.yy",},
+    {"name":"inst_4F871584","path":"rooms/Game10/Game10.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
