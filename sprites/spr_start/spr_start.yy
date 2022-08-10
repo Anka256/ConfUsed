@@ -71,8 +71,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "ConfUsed",
+    "path": "ConfUsed.yyp",
   },
   "resourceVersion": "1.0",
   "name": "spr_start",
