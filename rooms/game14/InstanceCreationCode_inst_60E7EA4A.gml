@@ -1,1 +1,1 @@
-whichdoor = instance_find(obj_door,3);
+whichdoor = instance_find(obj_door,2);
