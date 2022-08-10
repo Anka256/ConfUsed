@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Menu objects",
-    "path": "folders/Kadınlar/Menu objects.yy",
+    "name": "ConfUsed",
+    "path": "ConfUsed.yyp",
   },
   "resourceVersion": "1.0",
   "name": "obj_start",
