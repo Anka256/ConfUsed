@@ -1,0 +1,1 @@
+double_slower_door = true;
